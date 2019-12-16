@@ -1,0 +1,9 @@
+[parity]
+base_path = "$HOME/.ducatusx"
+chain = "$HOME/.ducatusx/chain.json"
+[network]
+allow_ips = "all"
+[rpc]
+interface = "all"
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+
