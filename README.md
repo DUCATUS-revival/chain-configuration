@@ -34,7 +34,7 @@
 
 - cd chain-configuration
 
-<b> !!!Change all '$HOME' variables in config.toml to you home path, for example (/home/ducatusx/)!!! </b>
+- sed -i 's,$HOME,'$HOME',g' config.toml
 
 - sudo mkdir /etc/ducatusx
 
