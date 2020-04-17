@@ -34,6 +34,8 @@
 
 - cd chain-configuration
 
+- !!!For mainnet configuration: (git checkout mainnet)
+
 - sed -i 's,$HOME,'$HOME',g' config.toml
 
 - sudo mkdir /etc/ducatusx
