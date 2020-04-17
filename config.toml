@@ -5,29 +5,25 @@ db_path = "$HOME/ducatusx/.ducatusx/chains"
 keys_path = "$HOME/ducatusx/.ducatusx/keys"
 identity = ""
 light = false
-no_persistent_txqueue = true
 [network]
-warp = true
 allow_ips = "public"
-port = 30300
+port = 30301
 [rpc]
 interface = "all"
 cors = ["all"]
-port = 8545
-apis = ["web3", "eth", "net", "personal", "parity", "parity_pubsub", "shh", "shh_pubsub", "parity_set", "traces", "rpc", "parity_accounts", "pubsub"]
+port = 8546
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts", "pubsub"]
 [websockets]
-apis = ["web3", "eth", "net", "personal", "parity", "parity_pubsub", "shh", "shh_pubsub", "parity_set", "traces", "rpc", "parity_accounts", "pubsub"]
-disable = false
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts", "pubsub"]
+port = 8456
 interface = "all"
-max_connections = 20
-port = 8455
 [footprint]
 db_compaction = "hdd"
+
 [ipc]
-disable = true
+disable = false
 
 [misc]
 logging = "own_tx=trace"
 log_file = "$HOME/ducatusx/.ducatusx/debug.log"
 color = true
-

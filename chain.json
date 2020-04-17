@@ -1,13 +1,14 @@
 {
-  "name": "DUCX_test",
+  "name": "DUCX_main",
   "engine": {
     "authorityRound": {
       "params": {
         "stepDuration": "5",
         "validators": {
           "list": [
-            "0x00ede40cc05b611d09ce16853a462fcc04a15d93",
-            "0x00978b65af5bfc791b5def1700677ed9c64fd816"
+            "0x0056889ab48790f3bdd9de56a482a570f0f163b1",
+            "0x007fdca332b14b12211cf680baa49ced70bf42ca",
+            "0x006f4540346c708b4b87b75473f593707996e47c"
           ]
         }
       }
@@ -16,8 +17,8 @@
   "params": {
     "gasLimitBoundDivisor": "0x400",
     "maximumExtraDataSize": "0x20",
-    "minGasLimit": "0x1388",
-    "networkID": "0x6772",
+    "minGasLimit": "0x5208",
+    "networkID": "0x6773",
     "eip155Transition": 0,
     "validateChainIdTransition": 0,
     "eip140Transition": 0,
@@ -34,17 +35,18 @@
       }
     },
     "difficulty": "0x10000",
-    "gasLimit": "0x5B8D80"
+    "gasLimit": "0x7A1200"
   },
   "accounts": {
     "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
     "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
     "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
     "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
-    "0x007361ef17de1ff0840968129f16a6fe471d6869": { "balance":  "100000000000000000000000000000000000000" }
+    "0x002fe643577d06f18ecf13ec2080181f2809f38a": { "balance": "0x283714524c64b2c64ca0000"}
   },
   "nodes": [
-    "enode://e6187119a62ccc19308cbb10e5901216e0f3cb93e76b403fe9f502692c956421fb9e26c4378b68bfa6799e2306052542ec184dc92807b5fb401bd3919dfd2354@89.47.165.99:30300",
-    "enode://25fbe795f349af791bfae566670756783bdf62aff877a542b992b962a1118b22a5a1c9a0a201972122121da1cbc89154b79257bc136fb41e79b086d06e354576@89.40.14.180:30300"
+    "enode://716ea1382dfd1cf722fe052b7a40d18496111d78d924656ebbddc70a19deb7962d24c0f995c1108987758a9a8a7b06caf27d0114e5499b3e5d397bc76256a035@195.181.242.115:30301",
+    "enode://d59672d1ef583e30150e2877b450a63ce065aeba273db806d0be39867a89dbf1330249fdca02099165fbd77f561d923fb0b9e8633e9dfd6c2e90498814e3bac1@212.24.108.89:30301",
+    "enode://293ad7e0613d805b9b8fe880fb2eea849da74c5e1282a2a42345604e7508a9dad108b74bcb643ac2093074afed1d5e2622675a26718de242a207b4edc6e51039@194.135.83.113:30301"
   ]
 }
